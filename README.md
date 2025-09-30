@@ -1,5 +1,5 @@
 # Evaluating the Quality of the Quantified Uncertainty for (Re)Calibration of Data-Driven Regression Models
-This repository contains the code to reproduce the benchmark of our paper [Evaluating the Quality of the Quantified Uncertainty for (Re)Calibration of Data-Driven Regression Models]().
+This repository contains the code to reproduce the benchmark of our paper [Evaluating the Quality of the Quantified Uncertainty for (Re)Calibration of Data-Driven Regression Models](https://arxiv.org/abs/2508.17761).
 
 
 * [benchmark_real_synthetic.py](benchmark_real_synthetic.py) is used to run the first three case studies of the benchmark.
@@ -25,11 +25,15 @@ If installed without `--no-deps` packages might be downgraded making the rest of
 ## Citation
 If used, please cite:
 
-Wibbeke, J., Schönfisch, N., Rohjans, S. and Rauh, A. (2025), Evaluating the Quality of the Quantified Uncertainty for (Re)Calibration of Data-Driven Regression Models
+Wibbeke, J., Schönfisch, N., Rohjans, S., & Rauh, A. (2025). Evaluating the Quality of the Quantified Uncertainty for (Re)Calibration of Data-Driven Regression Models. arXiv [Cs.LG]. Retrieved from http://arxiv.org/abs/2508.17761
 ```
-@article{wibbeke2024quantification,
-author = {Wibbeke, Jelke and Sch{\"o}nfisch, Nico and Rohjans, Sebastian and Rauh, Andreas},
-title = {Evaluating the Quality of the Quantified Uncertainty for (Re)Calibration of Data-Driven Regression Models},
-year = {2025},
+@misc{wibbeke2025evaluatingqualityquantifieduncertainty,
+      title={Evaluating the Quality of the Quantified Uncertainty for (Re)Calibration of Data-Driven Regression Models}, 
+      author={Jelke Wibbeke and Nico Schönfisch and Sebastian Rohjans and Andreas Rauh},
+      year={2025},
+      eprint={2508.17761},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2508.17761}, 
 }
 ```
